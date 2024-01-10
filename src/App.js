@@ -38,8 +38,6 @@ function App() {
       //   const options = {
       //     method: "GET",
       //     headers: {
-      //       "X-RapidAPI-Key":
-      //         "4f695a18abmsh644f2d8ae6f4114p17d14bjsn886f7833722e",
       //       "X-RapidAPI-Host": "air-quality.p.rapidapi.com",
       //     },
       //   };
