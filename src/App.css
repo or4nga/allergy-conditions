@@ -1,3 +1,7 @@
+html h2 {
+  color: gray;
+}
+
 .App {
   text-align: center;
 }
@@ -15,7 +19,6 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -35,4 +38,29 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.chart-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 50px;
+}
+
+.chart-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h2 {
+  margin: 0;
+}
+
+#grass-label,
+#tree-label,
+#weed-label {
+  font-size: 30px;
+  font-weight: 600;
 }
